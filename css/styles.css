@@ -55,6 +55,22 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/*     E L E M E N T S     */
+
+button {
+    background-color: #fff;
+    
+    font-family: 'Open Sans', sans-serif;
+    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+    border: 0;
+    
+    padding: 15px 30px;
+}
+
 /*   header styles   */
 
 header {
@@ -101,15 +117,96 @@ header {
 /*   Banner    */
 
 .home-banner {
-    padding: 200px 0;
+    
 }
 
-    form {
-        width: 900px;
+    .home-banner .container {
+        background-image: url('../img/banner.jpeg');
+        background-size: cover;
         
+        padding: 200px 0;
+    }
+    
+    
+        .home-banner h1 {
+            color: #D3D3D3;
+        }
+
+        form {
+            width: 900px;
+            
+            margin: 0 auto;
+        }
+        
+            input {
+                font-family: 'Open Sans', sans-serif;
+                
+                background-color: #fafafa;
+                
+                border: 0;
+                
+                padding: 15px;
+                
+                width: 30%;
+            }
+            
+            input[type=submit] {
+                background-color: #A9A9A9;   
+            }
+        
+        
+/*    Feature    */
+
+.home-feature {
+    
+}
+
+    .image-slider {
+        background-image: url('../img/feat-1.jpeg');
+        background-size: cover;
+        
+        border-top: 10px solid #36c9eb;
+        
+        height: 500px;
+        width: 60%;
+        
+        float: left;
+    }
+    
+    .feat-list {
+        background-color: #224066;
+        
+        color: #fff;
+        
+        width: 40%;
+        height: 510px;
+        
+        padding: 50px;
+        box-sizing: border-box;
+        
+        float: left;
+    }
+    
+        .feat-list p {
+            line-height: 2em;
+            
+            margin-bottom: 2em;
+        }
+        
+
+/*   TEAM   */
+
+.member {
+    width: 33%;
+    float: left;
+}
+
+    .member-card {
+        width: 250px;
         margin: 0 auto;
     }
     
-        input {
-            width: 30%;
+        .photo-id {
+            width: 250px;
+            height: 250px;
         }
