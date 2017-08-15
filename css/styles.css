@@ -25,7 +25,7 @@ a {
 }
 
 
-/*    TYPEOGRAPHY: ;*/
+/*    TYPOGRAPHY: ;*/
 
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -39,6 +39,7 @@ h1 {
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5em;
+    font-weight: 300;
     
     letter-spacing: 2px;
 }
@@ -49,6 +50,13 @@ h3 {
     
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    
+    letter-spacing: 1px;
 }
 
 p {
@@ -196,6 +204,17 @@ header {
 
 /*   TEAM   */
 
+.team {
+   padding: 50px 0; 
+}
+
+    .team h3 {
+        color: #568496;
+        font-weight: 300;
+        
+        text-align: center;
+    }
+
 .member {
     width: 33%;
     float: left;
@@ -209,4 +228,43 @@ header {
         .photo-id {
             width: 250px;
             height: 250px;
+        }
+        
+    .name-tag    {
+        background-color: #808080;
+    }
+    
+        .name-tag h5 {
+            margin: 0;
+            padding: 25px;
+        }
+        
+        
+/*  M A P  */
+
+#map {
+    height: 500px;
+    
+    position: relative
+}
+
+    .address {
+        position: relative;
+    }
+    
+    
+/*    F O O T E R    */
+
+footer {
+    background-color: #333;
+}
+
+    .quarter {
+        width: 25%;
+        
+        float: left;
+    }
+    
+        footer h2 {
+            color: #808080;
         }
